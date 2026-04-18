@@ -7,7 +7,7 @@ name = "tokengs"
 version = "0.1.0"
 description = "TokenGS: Decoupling 3D Gaussian Prediction from Pixels with Learnable Tokens"
 readme = "README.md"
-requires-python = ">=3.11,<3.12"
+requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 dependencies = [
     "numpy<2",
@@ -24,9 +24,9 @@ dependencies = [
     "plyfile",
     "tensorboard",
     "wandb==0.17.5",
-    "torch==2.7.0",
+    "torch>=2.6.0",
     "torchvision",
-    "gsplat==1.5.3",
+    "gsplat>=1.4.0",
     "fused_ssim",
     "matplotlib",
 ]
