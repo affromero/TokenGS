@@ -39,4 +39,4 @@ name = "pytorch-cu126"
 url = "https://download.pytorch.org/whl/cu126"
 
 [tool.uv.sources]
-fused_ssim = { git = "https://github.com/rahul-goel/fused-ssim" }
+fused_ssim = { git = "https://github.com/rahul-goel/fused-ssim", rev = "328dc9836f513d00c4b5bc38fe30478b4435cbb5" }
