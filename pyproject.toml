@@ -37,3 +37,6 @@ where = ["."]
 [[tool.uv.index]]
 name = "pytorch-cu126"
 url = "https://download.pytorch.org/whl/cu126"
+
+[tool.uv.sources]
+fused_ssim = { git = "https://github.com/rahul-goel/fused-ssim" }
